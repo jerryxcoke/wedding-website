@@ -54,6 +54,11 @@ body {
   -webkit-text-size-adjust: 100%;
   //fix for iOS
 }
+
+.accent-color {
+  color: $accent-color;
+}
+
 *:focus {
   outline: none !important;
 }
@@ -1080,4 +1085,19 @@ body.modal-open {
 
 .section-padding.map-section {
   padding-bottom: 0;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #870430;
+    background-color: #efe5ea;
+    
+}
+
+.accordion-button:focus {
+  border-color: #440419;
+  box-shadow: 0 0 0 .25rem rgba(73, 22, 16, 0.25);
+}
+
+#accordionFlushExample {
+  font-size: 1.0875rem;
 }
